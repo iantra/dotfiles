@@ -1,0 +1,44 @@
+// vim:ts=4:sw=4:et
+{
+   "border": "pixel",
+   "current_border_width": 1,
+   "floating": "auto_off",
+   "geometry": {
+      "height": 1396,
+      "width": 2548,
+      "x": 6,
+      "y": 38
+   },
+   "marks": [],
+   "name": "Microsoft Teams",
+   "percent": 1,
+   "swallows": [
+      {
+         "class": "^Microsoft\\ Teams\\ \\-\\ Preview$",
+         "title": "\\ \\|\\ "
+      }
+   ],
+   "type": "con"
+}
+
+{
+   "border": "pixel",
+   "current_border_width": 1,
+   "floating": "auto_off",
+   "geometry": {
+      "height": 1396,
+      "width": 2548,
+      "x": 6,
+      "y": 38
+   },
+   "marks": [],
+   "name": "Microsoft Teams",
+   "percent": 1,
+   "swallows": [
+      {
+         "class": "^Microsoft\\ Teams\\ \\-\\ Preview$",
+         "title": "[Ll]oading"
+      }
+   ],
+   "type": "con"
+}

@@ -1,0 +1,21 @@
+// vim:ts=4:sw=4:et
+{
+   "border": "pixel",
+   "current_border_width": 1,
+   "floating": "auto_off",
+   "geometry": {
+      "height": 1396,
+      "width": 2548,
+      "x": 6,
+      "y": 38
+   },
+   "marks": [],
+   "name": "VSCode",
+   "percent": 1,
+   "swallows": [
+      {
+         "class": "^code\\-oss$"
+      }
+   ],
+   "type": "con"
+}
