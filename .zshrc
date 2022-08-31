@@ -110,6 +110,7 @@ alias pacq="pacman -Q"
 alias ec=my_emacs_client
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias ssh="TERM=xterm-256color ssh"
+alias dotfiles='/usr/bin/git --git-dir=/home/iantra/.cfg.git/ --work-tree=/home/iantra'
 
 # Created by `pipx` on 2022-08-03 13:14:31
 export PATH="$PATH:/home/iantra/.local/bin"
