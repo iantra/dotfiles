@@ -243,5 +243,9 @@ gaps inner 4
 
 focus_follows_mouse no
 
+# Allow teams popups to float
+for_window [title="Microsoft Teams Notification" class="microsoft teams - preview"] floating enable
+
 # Auto tiling
 exec_always --no-startup-id autotiling
+

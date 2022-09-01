@@ -137,5 +137,3 @@ if test `find ~/.pacup -mtime +3`
 then
   echo "Looks like you haven't run pacup in a few days."
 fi
-
-neofetch
