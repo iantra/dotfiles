@@ -10,11 +10,11 @@
       "y": 0
    },
    "marks": [],
-   "name": "Mozilla Firefox",
+   "name": "Chrome",
    "percent": 1,
    "swallows": [
       {
-         "class": "^firefox$"
+         "class": "^Google-chrome$"
       }
    ],
    "type": "con"

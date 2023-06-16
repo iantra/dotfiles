@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pacs="sudo pacman -S"
-alias pacup="touch ~/.pacup && sudo pacman -Syu"
+alias pacup="touch ~/.pacup && sudo pacman -Sy archlinux-keyring && yay"
 alias pacf="pacman -Ss"
 alias pacq="pacman -Q"
 alias ec=my_emacs_client
@@ -114,9 +114,9 @@ alias dotfiles='/usr/bin/git --git-dir=/home/iantra/.cfg.git/ --work-tree=/home/
 
 # Created by `pipx` on 2022-08-03 13:14:31
 export PATH="$PATH:/home/iantra/.local/bin"
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+#export PYENV_ROOT="$HOME/.pyenv"
+#command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+#eval "$(pyenv init -)"
 
 export PATH="$PATH:/home/iantra/.emacs.d/bin"
 
@@ -137,3 +137,5 @@ if test `find ~/.pacup -mtime +3`
 then
   echo "Looks like you haven't run pacup in a few days."
 fi
+
+eval "$(lesspipe.sh)"
